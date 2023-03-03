@@ -1,9 +1,18 @@
 <script>
-    export let video = {src: 'https://joy1.videvo.net/videvo_files/video/free/2013-08/large_watermarked/hd0983_preview.mp4'};
-    console.log(video);
+    export let video;
+    
+    function handleClick(copyText) {
+    navigator.clipboard.writeText(copyText);
+    alert("Copied");
+}
 </script>
-
-<video width="320" height="240" controls>
-    <source src={video.src} type="video/mp4">
+ 
+ <video class="video" width="320" height="240" muted="muted">
+    <source src={video.src + '#t=0.4'} type="video/mp4">
   Your browser does not support the video tag.
   </video>
+
+  <div>
+    {video.src}
+    <button on:click={() => handleClick(video.src)}>Copy text</button>
+  </div>

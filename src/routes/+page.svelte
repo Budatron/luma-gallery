@@ -6,11 +6,39 @@
 </svelte:head>
 
 <script>
-    import VideoCard from "$lib/VideoCard.svelte";
-    let videos = [
-        {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'},
-        {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'}
-    ]
+    import SectionByType from "$lib/SectionByType.svelte";
+    import { onMount } from "svelte";
+
+    let lumas = [
+        {type: 'circles', videos: [
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'},
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'}]},
+        {type: 'bars', videos: [
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'},
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'}]},
+        {type: 'squares', videos: [
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'},
+            {src: 'https://templates.shotstack.io/basic/asset/video/luma/abstract/full-screen-abstract-01.mp4'}]}
+            
+        ]
+     
+        onMount(() => {
+            const divs = document.querySelectorAll('.video');
+
+            divs.forEach(el => el.addEventListener('mouseover', function() {
+                this.currentTime = 0;
+                this.play();
+            }));
+
+            divs.forEach(el => el.addEventListener('mouseleave', function() {
+                this.pause();
+                this.currentTime = 0.4;
+            }));
+
+        })
+        
+
+       
 </script>
 
 <div class="headings" style="margin: 20px auto 0 ; pading: 20px; width: 700px;">
@@ -19,13 +47,10 @@
     <h5 style="text-align: center;">Scroll through the page and preview the templates. Use the filter to improve your search.</h5>
     <p>filter</p>
 
-    <section>
-        {#each videos as video}
-            <VideoCard video={video}/>     
-        {/each}
-       <VideoCard />
-        
-    </section>
+    {#each lumas as luma}
+        <SectionByType {luma} />
+    {/each}
+    
 </div>
 
 <style>
