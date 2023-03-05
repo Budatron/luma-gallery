@@ -4,9 +4,15 @@
 </script>
 
 
- <section>
-    <h4>{luma.type}</h4>
-    {#each luma.videos as video}
-        <VideoCard {video}/> 
-    {/each}
+ <section >
+    <div class="w3-container" id={luma.type}>
+        <header class="w3-container">
+            <h3>{luma.type}</h3>
+        </header>
+        <div class="w3-row-padding">
+            {#each luma.videos as video}
+                <VideoCard {video}/> 
+            {/each}
+        </div>
+    </div>
 </section> 

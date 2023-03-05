@@ -1,0 +1,178 @@
+[
+    {
+        "type": "abstract", 
+        "videos": [
+            {"src": "abstract/full-screen-abstract-01.mp4"},
+            {"src": "abstract/full-screen-abstract-02.mp4"},
+            {"src": "abstract/full-screen-abstract-03.mp4"}
+        ]
+    },
+    {
+        "type": "bars", "videos": [
+            {"src": "bars/falling-bars.mp4"},
+            {"src": "bars/gradient-bars.mp4"},
+            {"src": "bars/growing-bars.mp4"},
+            {"src": "bars/horizontal-bars-close.mp4"},
+            {"src": "bars/horizontal-bars-open.mp4"}
+        ]
+    }, 
+    {"type": "brush", "videos": [
+            {"src": "brush-strokes/brush-strokes-left-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-left-flip-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-left.mp4"},
+            {"src": "brush-strokes/brush-strokes-right-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-right-flip-fast.mp4"}
+        ]
+    }, 
+    {"type": "circles", "videos": [
+            {"src": "circles/center-double-invert.mp4"},
+            {"src": "circles/center-double.mp4"},
+            {"src": "circles/center-small-to-large.mp4"},
+            {"src": "circles/circle-expand-left.mp4"},
+            {"src": "circles/circle-expand-right.mp4"},
+            {"src": "circles/circle-expand.mp4"},
+            {"src": "circles/circle-half-left.mp4"},
+            {"src": "circles/circle-half-right.mp4"},
+            {"src": "circles/circle-shrink.mp4"},
+            {"src": "circles/circles-expand-02.mp4"},
+            {"src": "circles/circles-growing.mp4"},
+            {"src": "circles/circles-water-drop.mp4"},
+            {"src": "circles/double-circle-expand.mp4"},
+            {"src": "circles/double-circle-shrink.mp4"},
+            {"src": "circles/enter-large-to-small.mp4"}
+        ]
+    }, 
+    {"type": "diagonals", "videos": [
+            {"src": "diagonals/diagonal-bars.mp4"},
+            {"src": "diagonals/diagonal-rush-left.mp4"},
+            {"src": "diagonals/diagonal-rush-right.mp4"},
+            {"src": "diagonals/split-screen.mp4"}
+        ]
+    }, 
+    {"type": "doors", "videos": [
+            {"src": "doors/doors-diagonal-left.mp4"},
+            {"src": "doors/doors-diagonal-right.mp4"},
+            {"src": "doors/doors-horizontal.mp4"},
+            {"src": "doors/doors-vertical.mp4"}
+        ]
+    }, 
+    {"type": "double-arrow", "videos": [
+            {"src": "double-arrow/double-arrow-down-45.mp4"},
+            {"src": "double-arrow/double-arrow-down.mp4"},
+            {"src": "double-arrow/double-arrow-left-45.mp4"},
+            {"src": "double-arrow/double-arrow-left.mp4"},
+            {"src": "double-arrow/double-arrow-right-45.mp4"},
+            {"src": "double-arrow/double-arrow-right.mp4"},
+            {"src": "double-arrow/double-arrow-up-45.mp4"},
+            {"src": "double-arrow/double-arrow-up.mp4"}
+        ]
+    }, 
+    {"type": "effects", "videos": [
+            {"src": "effects/popup.mp4"},
+            {"src": "effects/wobble.mp4"}
+        ]
+    }, 
+    {"type": "fades", "videos": [
+            {"src": "fades/1-second.mp4"},
+            {"src": "fades/2-second.mp4"},
+            {"src": "fades/3-second.mp4"}
+        ]
+    }, 
+    {"type": "grids", "videos": [
+            {"src": "grids/pattern-1-invert.mp4"},
+            {"src": "grids/pattern-1.mp4"},
+            {"src": "grids/pattern-2-invert.mp4"},
+            {"src": "grids/pattern-2.mp4"},
+            {"src": "grids/pattern-3-invert.mp4"},
+            {"src": "grids/pattern-3.mp4"}
+        ]
+    }, 
+    {"type": "hard-wipes", "videos": [
+            {"src": "hard-wipes/up.mp4"}
+        ]
+    }, 
+    {"type": "liquid", "videos": [
+            {"src": "liquid/liquid-noise.mp4"}
+        ]
+    }, 
+    {"type": "melts", "videos": [
+            {"src": "melts/melting-center-flipped.mp4"},
+            {"src": "melts/melting-center.mp4"}
+        ]
+    }, 
+    {"type": "perspective", "videos": [
+            {"src": "perspective/perspective-screen-down.mp4"},
+            {"src": "perspective/perspective-screen-middle.mp4"},
+            {"src": "perspective/perspective-screen-up.mp4"}
+        ]
+    }, 
+    {"type": "single-arrow", "videos": [
+            {"src": "single-arrow/single-arrow-down.mp4"},
+            {"src": "single-arrow/single-arrow-left.mp4"},
+            {"src": "single-arrow/single-arrow-right.mp4"},
+            {"src": "single-arrow/single-arrow-up.mp4"}
+        ]
+    }, 
+    {"type": "soft-wipes", "videos": [
+            {"src": "soft-wipes/down-left.mp4"},
+            {"src": "soft-wipes/down-right.mp4"},
+            {"src": "soft-wipes/down.mp4"},
+            {"src": "soft-wipes/left.mp4"},
+            {"src": "soft-wipes/right.mp4"},
+            {"src": "soft-wipes/up-left.mp4"},
+            {"src": "soft-wipes/up-right.mp4"},
+            {"src": "soft-wipes/up.mp4"}
+        ]
+    }, 
+    {"type": "splits", "videos": [
+            {"src": "splits/split-sceen-middle.mp4"},
+            {"src": "splits/split-screen-vertical.mp4"}
+        ]
+    }, 
+    {"type": "squares", "videos": [
+            {"src": "squares/double-square-expand.mp4"},
+            {"src": "squares/double-square-shrink.mp4"},
+            {"src": "squares/multi-square-growing-02.mp4"},
+            {"src": "squares/multi-square-growing.mp4"},
+            {"src": "squares/square-expand.mp4"},
+            {"src": "squares/square-grid.mp4"},
+            {"src": "squares/square-shrink.mp4"},
+            {"src": "squares/squares-growing.mp4"}
+        ]
+    }, 
+    {"type": "waves", "videos": [
+            {"src": "waves/double-horizontal.mp4"},
+            {"src": "waves/double-vertical.mp4"},
+            {"src": "waves/single-down.mp4"},
+            {"src": "waves/single-left.mp4"},
+            {"src": "waves/single-right.mp4"},
+            {"src": "waves/single-up.mp4"}
+        ]
+    }           
+]
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
