@@ -122,6 +122,10 @@
       width: 120px;
     }
 
+    nav {
+      top: 0px;
+    }
+
     .logo-footer {
         margin-left: 10px;
         width: 80px;
