@@ -102,7 +102,7 @@ const SectionByType = create_ssr_component(($$result, $$props, $$bindings, slots
 });
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: 'html{scroll-behavior:smooth}body.svelte-1ojg7tv{position:absolute}body.svelte-1ojg7tv,h1.svelte-1ojg7tv,h4.svelte-1ojg7tv,h5.svelte-1ojg7tv{font-family:"Raleway", sans-serif}.logo-header.svelte-1ojg7tv{width:120px}.logo-footer.svelte-1ojg7tv{margin-left:10px;width:80px}',
+  code: 'html{scroll-behavior:smooth}body.svelte-12y7utj,h1.svelte-12y7utj,h4.svelte-12y7utj,h5.svelte-12y7utj{font-family:"Raleway", sans-serif}.logo-header.svelte-12y7utj{width:120px}nav.svelte-12y7utj{top:0px}.logo-footer.svelte-12y7utj{margin-left:10px;width:80px}',
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -113,10 +113,10 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `<!-- HEAD_svelte-1q1yvi0_START --><link rel="${"stylesheet"}" href="${"https://www.w3schools.com/w3css/4/w3.css"}"><link rel="${"stylesheet"}" href="${"https://fonts.googleapis.com/css?family=Raleway"}"><link rel="${"stylesheet"}" href="${"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}"><!-- HEAD_svelte-1q1yvi0_END -->`, ""}
 
 
-<body id="${"body"}" class="${"w3-light-grey w3-content svelte-1ojg7tv"}" style="${"max-width:1600px"}">
-<nav class="${"w3-sidebar w3-collapse w3-white w3-animate-left"}" style="${"z-index:3;width:300px;"}" id="${"mySidebar"}"><br>
+<body id="${"body"}" class="${"w3-light-grey w3-content svelte-12y7utj"}" style="${"max-width:1600px"}">
+<nav class="${"w3-sidebar w3-collapse w3-white w3-animate-left svelte-12y7utj"}" style="${"z-index:3;width:300px;"}" id="${"mySidebar"}"><br>
     <div class="${"w3-container"}"><a href="${"#"}" class="${"w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"}" title="${"close menu"}"><i class="${"fa fa-remove"}"></i></a>
-      <h4 class="${"svelte-1ojg7tv"}"><b>Category</b></h4></div>
+      <h4 class="${"svelte-12y7utj"}"><b>Category</b></h4></div>
     <div class="${"w3-bar-block"}"><a href="${"#body"}" class="${"w3-bar-item w3-button w3-padding w3-text-gray"}"><i class="${"fa fa-home fa-fw w3-margin-right"}"></i>top</a> 
 
         ${each(data.lumas, (luma) => {
@@ -128,9 +128,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 
 <div class="${"w3-main"}" style="${"margin-left:300px"}"><header class="${"headings container"}" style="${"margin: 20px auto 0 ; pading: 20px; width: 700px;"}"><span class="${"w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"}"><i class="${"fa fa-bars"}"></i></span>
-        <div class="${"w3-container"}"><img class="${"logo-header svelte-1ojg7tv"}" src="${"https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU"}" alt="${"tamanec"}">
-            <hgroup><h1 style="${"text-align: center;"}" class="${"svelte-1ojg7tv"}">Luma Transitions</h1>
-                <h5 style="${"text-align: center;"}" class="${"svelte-1ojg7tv"}">Scroll through the page and hover your mouse to preview the templates animations.</h5></hgroup></div></header>
+        <div class="${"w3-container"}"><img class="${"logo-header svelte-12y7utj"}" src="${"https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU"}" alt="${"tamanec"}">
+            <hgroup><h1 style="${"text-align: center;"}" class="${"svelte-12y7utj"}">Luma Transitions</h1>
+                <h5 style="${"text-align: center;"}" class="${"svelte-12y7utj"}">Scroll through the page and hover your mouse to preview the templates animations.</h5></hgroup></div></header>
    
     
   <div class="${"w3-container"}">${each(data.lumas, (luma) => {
@@ -141,7 +141,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     
   <footer class="${"w3-container w3-padding-32 w3-dark-grey"}">
     
-    <div class="${"w3-black w3-center w3-padding-24"}">Powered by <a href="${"xamantechmail@gmail.com"}" title="${"Xamantec"}" target="${"_blank"}" class="${"w3-hover-opacity"}"><img class="${"logo-footer svelte-1ojg7tv"}" src="${"https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU"}" alt="${"xamanec"}"></a></div></footer></div>
+    <div class="${"w3-black w3-center w3-padding-24"}">Powered by <a href="${"xamantechmail@gmail.com"}" title="${"Xamantec"}" target="${"_blank"}" class="${"w3-hover-opacity"}"><img class="${"logo-footer svelte-12y7utj"}" src="${"https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU"}" alt="${"xamanec"}"></a></div></footer></div>
     
 </body>`;
 });
