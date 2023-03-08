@@ -1,0 +1,78 @@
+[
+    {
+        "type": "abstract", 
+        "videos": [
+            {"src": "abstract/full-screen-abstract-01.mp4"},
+            {"src": "abstract/full-screen-abstract-02.mp4"},
+            {"src": "abstract/full-screen-abstract-03.mp4"}
+        ]
+    },
+    {
+        "type": "bars", "videos": [
+            {"src": "bars/falling-bars.mp4"},
+            {"src": "bars/gradient-bars.mp4"},
+            {"src": "bars/growing-bars.mp4"},
+            {"src": "bars/horizontal-bars-close.mp4"},
+            {"src": "bars/horizontal-bars-open.mp4"}
+        ]
+    }, 
+    {"type": "brush", "videos": [
+            {"src": "brush-strokes/brush-strokes-left-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-left-flip-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-left.mp4"},
+            {"src": "brush-strokes/brush-strokes-right-fast.mp4"},
+            {"src": "brush-strokes/brush-strokes-right-flip-fast.mp4"}
+        ]
+    }, 
+    {"type": "circles", "videos": [
+            {"src": "circles/center-double-invert.mp4"},
+            {"src": "circles/center-double.mp4"},
+            {"src": "circles/center-small-to-large.mp4"},
+            {"src": "circles/circle-expand-left.mp4"},
+            {"src": "circles/circle-expand-right.mp4"},
+            {"src": "circles/circle-expand.mp4"},
+            {"src": "circles/circle-half-left.mp4"},
+            {"src": "circles/circle-half-right.mp4"},
+            {"src": "circles/circle-shrink.mp4"},
+            {"src": "circles/circles-expand-02.mp4"},
+            {"src": "circles/circles-growing.mp4"},
+            {"src": "circles/circles-water-drop.mp4"},
+            {"src": "circles/double-circle-expand.mp4"},
+            {"src": "circles/double-circle-shrink.mp4"},
+            {"src": "circles/enter-large-to-small.mp4"}
+        ]
+    }, 
+    {"type": "diagonals", "videos": [
+            {"src": "diagonals/diagonal-bars.mp4"},
+            {"src": "diagonals/diagonal-rush-left.mp4"},
+            {"src": "diagonals/diagonal-rush-right.mp4"},
+            {"src": "diagonals/split-screen.mp4"}
+        ]
+    }        
+]
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 

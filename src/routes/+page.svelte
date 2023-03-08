@@ -10,7 +10,7 @@
     import { onMount } from "svelte";
 
     export let data;
-    console.log(data)
+    //console.log(data)
 
     function w3_open() {
         document.getElementById("mySidebar").style.display = "block";
@@ -23,46 +23,8 @@
     }
         
     onMount(() => {
-        // Hover Play Video
-        const divs = document.querySelectorAll('.video');
-
-        divs.forEach(el => el.addEventListener('mouseover', function() {
-            this.currentTime = 0;
-            this.play();
-        }));
-
-        divs.forEach(el => el.addEventListener('mouseleave', function() {
-            this.pause();
-            this.currentTime = 0.6;
-        }));  
 
 
-        document.addEventListener("DOMContentLoaded", function() {
-  var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
-
-  if ("IntersectionObserver" in window) {
-    var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(video) {
-        if (video.isIntersecting) {
-          for (var source in video.target.children) {
-            var videoSource = video.target.children[source];
-            if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
-              videoSource.src = videoSource.dataset.src;
-            }
-          }
-
-          video.target.load();
-          video.target.classList.remove("lazy");
-          lazyVideoObserver.unobserve(video.target);
-        }
-      });
-    });
-
-    lazyVideos.forEach(function(lazyVideo) {
-      lazyVideoObserver.observe(lazyVideo);
-    });
-  }
-});
     })
         
 
@@ -96,9 +58,9 @@
     <header class="headings container" style="margin: 20px auto 0 ; pading: 20px; width: 700px;">
         <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" on:click={w3_open}><i class="fa fa-bars"></i></span>
         <div class="w3-container">
-            <img src="https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU" alt="tamanec">
+            <img class="logo-header" src="https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU" alt="tamanec">
             <hgroup>
-                <h1 style="text-align: center;">Luma Templates</h1>
+                <h1 style="text-align: center;">Luma Transitions</h1>
                 <h5 style="text-align: center;">Scroll through the page and hover your mouse to preview the templates animations.</h5>
             </hgroup>
         </div>
@@ -115,7 +77,7 @@
     
     
   <footer class="w3-container w3-padding-32 w3-dark-grey">
-    <div class="w3-row-padding">
+    <!-- <div class="w3-row-padding">
       <div class="w3-third">
         <h3>FOOTER</h3>
        
@@ -135,46 +97,32 @@
         </p>
       </div>
   
-    </div>
+    </div> -->
     
-    <div class="w3-black w3-center w3-padding-24">Powered by <a href="" title="W3.CSS" target="_blank" class="w3-hover-opacity">
-        <img src="https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU" alt="xamanec">
+    <div class="w3-black w3-center w3-padding-24">Powered by <a href="xamantechmail@gmail.com" title="Xamantec" target="_blank" class="w3-hover-opacity">
+        <img class="logo-footer" src="https://drive.google.com/uc?export=download&id=0B2KyibKtouxNVng0X2ZUYnktVUU" alt="xamanec">
     </a></div>
+    </footer>
 </div>
     
 </body>
 
 <style>
     :global(html) {
-        scroll-behavior: smooth !important;
+        scroll-behavior: smooth;
     }
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     /* div * {
         font-family: 'Golos Text', sans-serif !important; 
     } */
-    img {
-        width: 140px;
+    .logo-header {
+      width: 120px;
     }
 
-    .skeleton {
-        opacity: 0.7;
-        animation: skeleton-loading 1s linear infinite alternate;
+    .logo-footer {
+        margin-left: 10px;
+        width: 80px;
     }
 
-    .skeleton-text {
-        width: 100%;
-        height: 0.5rem;
-        margin-bottom: 0.25rem;
-        border-radius: 0.125rem;
-    }
-
-    @keyframes skeleton-loadiong {
-        0% {
-            background-color: hsl(200, 20%, 70%);
-        }
-
-        100% {
-            background-color: hsl(200, 20%, 95%);
-        }
-    }
+  
 </style>
